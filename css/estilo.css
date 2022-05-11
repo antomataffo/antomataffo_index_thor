@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Roboto:ital,wght@0,500;1,500&family=Titillium+Web:wght@300&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+main{
+    width: 1100px;
+    height: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+	width: 1100px;
+	height: 100px;
+	background-color: #130f40;
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: center
+}
+
+/* menu */
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    font-family:  'Cinzel', serif;
+} 
+
+    nav li{
+    display:inline-block;
+    width:15%;
+    padding:10px 5px;
+    float: right;
+    margin-top: -37.5px;
+    text-align:center;
+    color:#fff;
+    }
+
+nav li:hover{
+    background-color:#fbc531;
+    color:#192a56;
+    }
+
+section{
+    width: 1100px;
+    height: 700px;
+}
+    
+footer{
+    width: 1100px;
+    height: 80px;
+    background-color:#130f40;
+}
+
+footer li{
+    display: inline-block;
+}
+
+#uces{
+    margin-left: 23px;
+    margin-top: center;
+}
+
+#marvel{
+    margin-left: 900px;
+    margin-bottom: -1100px;
+}
+
+#twitter{
+    margin-bottom: center;
+    margin-left: 820px;
+}
+
+#instagram{
+    margin-bottom:center;
+    margin-left: 620px;
+}
+#facebook{
+    margin-bottom: center;
+    margin-left: 720px;
+}
+
+#nombre{
+    margin-top: center;
+    margin-left: 100px;
+    color: #fbc531;
+    font-size: 12px;
+    font-family: 'Cinzel', serif;
+
+}
